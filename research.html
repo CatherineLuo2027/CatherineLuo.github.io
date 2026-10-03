@@ -3,37 +3,167 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Research — Catherine Luo</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Research — En Luo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lora:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
 
   <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-  <header>
-    <a class="site-title" href="index.html">Catherine Luo</a>
+  <header class="site-header">
 
-    <nav>
-      <a href="about.html">About</a>
+    <a class="site-logo" href="index.html">
+      En Luo
+    </a>
+
+    <nav class="nav-links">
       <a href="research.html">Research</a>
       <a href="art.html">Art</a>
       <a href="music.html">Music</a>
-      <a href="projects.html">Projects</a>
-      <a href="cv.html">CV</a>
+      <a href="about.html">About</a>
     </nav>
+
   </header>
 
-  <main>
 
-    <h1>Research</h1>
+  <main class="projects-container">
 
-    <p>
-      About me text goes here.
-    </p>
+
+    <!-- PROJECT 1 -->
+
+    <article class="project-card">
+
+      <img
+        class="project-image"
+        src="images/projects/dihedral.jpeg"
+        alt="Dihedral spherical tilings with rhombi"
+      >
+
+
+      <div class="project-content">
+
+        <h2>
+          An Elementary Family of Dihedral Spherical Tilings with Rhombi
+        </h2>
+
+
+        <p class="project-byline">
+          by <strong>Catherine Luo</strong>
+        </p>
+
+
+        <p class="project-description">
+          Investigation of finite edge-to-edge tilings of the sphere by two
+          spherical rhombi prototiles. Uses coordinates on the unit sphere to
+          prove that the proposed edges form a genuine quadrangulation and to
+          calculate the tile angles and vertex types. It shows that the
+          construction is dihedral for all cases except n=4.
+        </p>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- PROJECT 2 -->
+
+    <article class="project-card">
+
+      <img
+        class="project-image"
+        src="images/projects/kissing-number.jpeg"
+        alt="Three-dimensional kissing number configuration"
+      >
+
+
+      <div class="project-content">
+
+        <h2>
+          The Kissing Number Problem in Three Dimensions:
+          Geometric and Linear Programming Methods
+        </h2>
+
+
+        <p class="project-byline">
+          by <strong>Catherine Luo</strong>
+        </p>
+
+
+        <p class="project-description">
+          This literature review examines the three-dimensional kissing number
+          problem, explaining why exactly 12 congruent spheres can touch a
+          central sphere without overlap. It compares geometric and
+          optimization-based proofs of the upper bound, emphasizing how local
+          spherical geometry and global algebraic constraints work together to
+          establish optimality.
+        </p>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- PROJECT 3 -->
+
+    <article class="project-card">
+
+      <img
+        class="project-image"
+        src="images/projects/monohedral.jpg"
+        alt="Monohedral spherical rhombus tiling"
+      >
+
+
+      <div class="project-content">
+
+        <h2>
+          Vertex-Based Classification of Monohedral Spherical Tilings with Rhombi
+        </h2>
+
+
+        <p class="project-byline">
+          Governor’s Honors Program 2026
+        </p>
+
+
+        <p class="project-byline">
+          by <strong>Catherine Luo</strong> and
+          <strong>Arnav Patel</strong>
+        </p>
+
+
+        <p class="project-description">
+          Investigation of finite edge-to-edge tilings of the sphere by
+          congruent spherical rhombi. We determine the realizable angle and
+          vertex-count configurations, provide explicit geometric constructions
+          for all realizable cases, and rule out the remaining candidates using
+          elementary counting and local incidence arguments.
+        </p>
+
+      </div>
+
+    </article>
+
 
   </main>
 
 </body>
+
 </html>
